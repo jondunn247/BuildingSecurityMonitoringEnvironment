@@ -90,13 +90,7 @@ Yes
 No, the result appears to be isolated and not an indication of a True Negative.
 ```
 
-
-
-   
-
 **Alert Analysis for Successful Logins**
-
-
 
 *  Did you detect a suspicious volume of successful logins?
 
@@ -104,7 +98,9 @@ No, the result appears to be isolated and not an indication of a True Negative.
 Yes
 
 ```
+<img src= "https://i.imgur.com/fsVOKON.png" height="70%" width="70%" />
 
+<img src= "https://i.imgur.com/vNIaAED.png" height="70%" width="70%" />
 
 *  If so, what was the count of events in the hour(s) it occurred?
 
@@ -142,32 +138,30 @@ No
 ```
 
 
-
 **Alert Analysis for Deleted Accounts**
 
 
-
 * Did you detect a suspicious volume of deleted accounts?  
-
-   
-
 
 ```
 No
 
 ```
-
+<img src="https://i.imgur.com/LM3ZXFv.png" height="70%" width="70%" />
 
 **Dashboard Analysis for Time Chart of Signatures**
-
 
 
 *    Does anything stand out as suspicious?
 
 ```
-
 Yes, there is a significant increase in user accounts being locked out from 1:00 AM - 3:00 AM, attempted password resets from 9:00 AM to 11:00 AM and successful logins from 11:00 AM - 1:00 PM.
 ```
+<img src="https://i.imgur.com/C05sNZh.png" height="70%" width="70%" />
+
+<img src="https://i.imgur.com/1HWCT4e.png" height="70%" width="70%" />
+
+<img src="https://i.imgur.com/HgdGyGI.png" height="70%" width="70%" />
 
 *    What signatures stand out?
 
@@ -199,10 +193,11 @@ An account was successfully logged on: 196
 *    Does anything stand out as suspicious?
 
 ```
-
 User_a, user_k, and user_j have activity levels far above baseline.
 ```
+<img src="https://i.imgur.com/HYWYM3Y.png" height="70%" width="70%"/>
 
+<img src="https://i.imgur.com/3BCFbKy.png" height="70%" width="70%"/>
 
 *    Which users stand out?
 
@@ -234,10 +229,10 @@ User_j - 196
 *    Does anything stand out as suspicious?
 
 ```
-
 Yes, there is a significant increase in user accounts being locked out, attempted password resets and successful logins.
-
 ```
+<img src="https://i.imgur.com/TEwtdCM.png" height="70%" width="70%"/>
+
 *    Do the results match your findings in your time chart for signatures?    
 
 ```
@@ -252,7 +247,7 @@ Yes
 ```
 
 ```
-
+<img src="https://i.imgur.com/gJvKHor.png" height="70%" width="70%"/>
 
 *    Do the results match your findings in your time chart for users?
 
@@ -281,9 +276,9 @@ Yes, the GET request method count changed from 9851 to 1357 while the POST metho
 There was tremendous change in the POST method which jumped from 1% to 29%.
 
 ```
+<img src="https://i.imgur.com/vAEd4pM.png" height="70%" width="70%"/>
 
 * What is that method used for?
-
 
 ```
 POST method is used to send data to the server.
@@ -302,10 +297,10 @@ There was a huge drop in the count for http://www.semicomplete.com domain from  
 *  Did you detect any suspicious changes in HTTP response codes? 
 
 ```
-
 - On 2020-03-25 at 18:00 there were 624 - 404 response code and the average number of 404 code responses sat around 1-5.
 - On 2020-03-25 at 20:00 we had around 1415 -200 response code. The average amount sits around 100-120
 ```
+<img src="https://i.imgur.com/prTQfwN.png" height="70%" width="70%"/>
 
 **Alert Analysis for International Activity**
 
@@ -321,7 +316,6 @@ Yes we detect suspicious volume of international activity from Ukraine
 ```
 The attack was between 7-8PM
 ```
-
 
 *  Would your alert be triggered for this activity?
 
@@ -345,7 +339,7 @@ No, the threshold would not need to be changed from what it currently is.
 Yes, the count for POST activity jumped from 7 to 1296.
 
 ```
-
+<img src="https://i.imgur.com/nHLN1C6.png" height="70%" width="70%"/>
 
 *  If so, what was the count of the hour(s) it occurred in?
 
@@ -370,7 +364,7 @@ No, except at 8:00 PM the average alerts were below the threshold.
 *  Does anything stand out as suspicious?
 
 ```
-Yes,
+Yes
 ```
 
 *  Which method seems to be used in the attack?
@@ -379,13 +373,14 @@ Yes,
 POST
 ```
 
-
 *  At what times did the attack start and stop?
 
 ```
 Attack started at 7:00 PM and stopped by 9:00 PM.
 
 ```
+<img src="https://i.imgur.com/te94CPZ.png" height="70%" width="70%"/>
+
 *  What is the peak count of the top method during the attack?
 
 ```
@@ -412,14 +407,15 @@ The country is Ukraine and the two cities are Kiev and Kharkiv
 Kiev's number sits at 439 and Kharkiv sits at 433.
 
 ```
+<img src="https://i.imgur.com/nc6Pub0.png" height="70%" width="70%"/>
 
 **Dashboard Analysis for URI Data**
 
 *  Does anything stand out as suspicious?
 ```
 Yes, prior to the attack the top URI was the company homepage followed by 5 pages that were averaging no more than 5% click rate 
-
 ```
+<img src="https://i.imgur.com/fRMb3Oj.png" height="70%" width="70%"/>
 
 *  What URI is hit the most?
 
@@ -428,6 +424,7 @@ Yes, prior to the attack the top URI was the company homepage followed by 5 page
 2– /files/logstash/logstash-1.3.2-monolithic.jar
 
 ```
+<img src="https://i.imgur.com/25pp9IR.png" height="70%" width="70%"/>
 
 
 *  Based on the URI being accessed, what could the attacker potentially be doing?
