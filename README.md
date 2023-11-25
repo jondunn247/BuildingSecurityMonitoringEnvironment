@@ -12,19 +12,9 @@ Used Splunk to build a custom security monitoring environment for a fictional or
 
 - <b>Vagrant Virtual Machine</b>
 
-<img src="images/image1.png" width="" alt="alt_text" title="image_tooltip">
-    Cybersecurity
-   </td>
-  </tr>
-  <tr>
-   <td>
-        Project 3 Review Questions
    </td>
   </tr>
 </table>
-
-
-Make a copy of this document before you begin. Place your answers below each question.
 
 
 ## Windows Server Log Questions
@@ -38,9 +28,10 @@ Make a copy of this document before you begin. Place your answers below each que
 ```
 % Yes - significant changes in severity level for "high", 6.9% to 20.2% while severity level for Informational decreased from 93.9% to 79.8.
 
-
 ```
+<img src= "https://i.imgur.com/XydbNCe.png" height="70%" width="70%" />
 
+<img src= "https://i.imgur.com/M9C8LoO.png" height="70%" width="70%" />
 
 
 **Report Analysis for Failed Activities**
@@ -49,25 +40,17 @@ Make a copy of this document before you begin. Place your answers below each que
 
 * Did you detect any suspicious changes in failed activities? 
 
+```
     No, The failure rate dropped from 3.0 to 1.6; my conclusion is that there are no suspicious changes in failed activities.
 
+```
 
+<img src= "https://i.imgur.com/yVkctGM.png" height="70%" width="70%" />
 
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image2.png "image_tooltip")
-
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image3.png "image_tooltip")
+<img src= "https://i.imgur.com/SVu8XrV.png" height="70%" width="70%" />
 
 
 **Alert Analysis for Failed Windows Activity**
-
 
 
 * Did you detect a suspicious volume of failed activity?
@@ -75,11 +58,10 @@ Make a copy of this document before you begin. Place your answers below each que
 ```
 Yes - suspicious volume of failed activity with events count of 35 on Wednesday, March 25, 2020 at 8:00 AM.
 
-
-
-
 ```
+<img src= "https://i.imgur.com/NThtRIq.png" height="70%" width="70%" />
 
+<img src= "https://i.imgur.com/JqdWhBv.png" height="70%" width="70%" />
 
 *  If so, what was the count of events in the hour(s) it occurred?
 
