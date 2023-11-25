@@ -21,13 +21,10 @@ Used Splunk to build a custom security monitoring environment for a fictional or
 
 **Report Analysis for Severity**
 
-
-
 * Did you detect any suspicious changes in severity?
 
 ```
 % Yes - significant changes in severity level for "high", 6.9% to 20.2% while severity level for Informational decreased from 93.9% to 79.8.
-
 ```
 <img src= "https://i.imgur.com/XydbNCe.png" height="70%" width="70%" />
 
@@ -36,13 +33,10 @@ Used Splunk to build a custom security monitoring environment for a fictional or
 
 **Report Analysis for Failed Activities**
 
-
-
 * Did you detect any suspicious changes in failed activities? 
 
 ```
-    No, The failure rate dropped from 3.0 to 1.6; my conclusion is that there are no suspicious changes in failed activities.
-
+No, The failure rate dropped from 3.0 to 1.6; my conclusion is that there are no suspicious changes in failed activities.
 ```
 
 <img src= "https://i.imgur.com/yVkctGM.png" height="70%" width="70%" />
@@ -57,7 +51,6 @@ Used Splunk to build a custom security monitoring environment for a fictional or
 
 ```
 Yes - suspicious volume of failed activity with events count of 35 on Wednesday, March 25, 2020 at 8:00 AM.
-
 ```
 <img src= "https://i.imgur.com/NThtRIq.png" height="70%" width="70%" />
 
@@ -68,7 +61,6 @@ Yes - suspicious volume of failed activity with events count of 35 on Wednesday,
 ```
 35 events
 ```
-
 
 *  When did it occur?
 
@@ -96,7 +88,6 @@ No, the result appears to be isolated and not an indication of a True Negative.
 
 ```
 Yes
-
 ```
 <img src= "https://i.imgur.com/fsVOKON.png" height="70%" width="70%" />
 
@@ -145,7 +136,6 @@ No
 
 ```
 No
-
 ```
 <img src="https://i.imgur.com/LM3ZXFv.png" height="70%" width="70%" />
 
@@ -420,7 +410,7 @@ Yes, prior to the attack the top URI was the company homepage followed by 5 page
 *  What URI is hit the most?
 
  ```
-1-   /VSI_Account_logon.php 
+1- /VSI_Account_logon.php 
 2– /files/logstash/logstash-1.3.2-monolithic.jar
 
 ```
